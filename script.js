@@ -5,14 +5,24 @@
 //scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 //proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 
+console.log('begin')
+
+//per i che va da 1 a 100 ripeti e aggiungi uno per ogni giro.
 for (let i = 1; i <= 100; i++) {
 	if (i % 3 === 0 && i % 5 === 0) {
-		console.log('FizzBuzz')
+		//se i diviso 3 da come resto 0 e i diviso 5 da come resto 0
+
+		console.log('FizzBuzz') //allora scrivi FIZZBUZZ
 	} else if (i % 3 === 0) {
-		console.log('Fizz')
+		//se i diviso 3 da come resto 0
+
+		console.log('Fizz') //allora scrivi FIZZ
 	} else if (i % 5 === 0) {
-		console.log('Buzz')
+		//se i diviso 5 da come resto 0
+		console.log('Buzz') //allora scrivi BUZZ
 	} else {
-		console.log(i)
+		// se nessuna di queste si verifica
+
+		console.log(i) //scrivi il numero
 	}
 }
