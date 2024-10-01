@@ -11,18 +11,15 @@ console.log('begin')
 for (let i = 1; i <= 100; i++) {
 	if (i % 3 === 0 && i % 5 === 0) {
 		//se i diviso 3 da come resto 0 e i diviso 5 da come resto 0
-
 		console.log('FizzBuzz') //allora scrivi FIZZBUZZ
 	} else if (i % 3 === 0) {
 		//se i diviso 3 da come resto 0
-
 		console.log('Fizz') //allora scrivi FIZZ
 	} else if (i % 5 === 0) {
 		//se i diviso 5 da come resto 0
 		console.log('Buzz') //allora scrivi BUZZ
 	} else {
 		// se nessuna di queste si verifica
-
 		console.log(i) //scrivi il numero
 	}
 }
