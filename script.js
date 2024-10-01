@@ -23,3 +23,4 @@ for (let i = 1; i <= 100; i++) {
 		console.log(i) //scrivi il numero
 	}
 }
+console.log('end')
